@@ -1,0 +1,5 @@
+USE fruitshop;
+CREATE TABLE persons (
+person_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(20),
+city VARCHAR (20));
